@@ -1,0 +1,56 @@
+#hero-section {
+  font-family: "Montserrat", "sans-serif";
+  height: 46rem;
+  background: linear-gradient(91.31deg, #fbf6ff 1.04%, #f6f9ff 96.51%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border-bottom: 1px solid rgba(25, 37, 44, 1); */
+}
+
+#hero-content {
+  position: relative;
+  top: -5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 16rem 8rem;
+}
+
+#hero-content img {
+  width: 33rem;
+  height: 25rem;
+}
+
+#text-content h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: left;
+}
+
+#text-content p {
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 100;
+  text-align: left;
+  color: grey;
+}
+
+#text-content a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding: 0.9rem 2.25rem;
+  border-radius: 8px;
+  border: 1px solid rgba(25, 37, 44, 1);
+  transition: 0.3s;
+}
+#text-content a:hover {
+  background: rgba(25, 37, 44, 1);
+  color: white;
+}
+
+.color-text {
+  color: #3763c2;
+}
